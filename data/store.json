@@ -1,0 +1,18 @@
+{
+  "name": "Pieza",
+  "tagline": "Tecnología revisada en la mesa",
+  "city": "Mendoza",
+  "installments": 6,
+  "freeShippingFrom": 300000,
+  "shipping": 9900,
+  "drawers": [
+    { "id": "celulares", "num": "01", "name": "Celulares", "note": "Probados con chip y carga completa" },
+    { "id": "tablets", "num": "02", "name": "Tablets y lectores", "note": "Pantalla revisada pixel por pixel" },
+    { "id": "computacion", "num": "03", "name": "Computación", "note": "Encendidas, actualizadas y medidas" },
+    { "id": "audio", "num": "04", "name": "Audio", "note": "Escuchados antes de salir" },
+    { "id": "gaming", "num": "05", "name": "Gaming", "note": "Joysticks calibrados en la mesa" },
+    { "id": "foto", "num": "06", "name": "Foto y video", "note": "Sensor limpio, disparo de prueba" },
+    { "id": "hogar", "num": "07", "name": "Hogar y TV", "note": "Conectados a la red de prueba" },
+    { "id": "wearables", "num": "08", "name": "Relojes y accesorios", "note": "Emparejados y con carga" }
+  ]
+}

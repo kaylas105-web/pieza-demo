@@ -1,0 +1,790 @@
+{
+ "galaxy-s25": {
+  "similar": [
+   "galaxy-zflip6",
+   "tab-s9",
+   "pixel-9a",
+   "iphone-17"
+  ],
+  "fits": [
+   "airpods-4",
+   "airpods-max",
+   "airpods-pro-3"
+  ],
+  "xy": [
+   0.667,
+   0.813
+  ]
+ },
+ "galaxy-zflip6": {
+  "similar": [
+   "galaxy-s25",
+   "tab-s9",
+   "iphone-16e",
+   "macbook-air-m4"
+  ],
+  "fits": [
+   "airpods-4",
+   "airpods-max",
+   "airpods-pro-3"
+  ],
+  "xy": [
+   0.69,
+   0.674
+  ]
+ },
+ "iphone-15": {
+  "similar": [
+   "iphone-16",
+   "iphone-16e",
+   "iphone-17-pro",
+   "ipad-mini"
+  ],
+  "fits": [
+   "apple-watch-ultra-2",
+   "cargador-magsafe",
+   "airpods-4"
+  ],
+  "xy": [
+   0.858,
+   0.506
+  ]
+ },
+ "iphone-16": {
+  "similar": [
+   "iphone-15",
+   "iphone-17-pro",
+   "iphone-16e",
+   "ipad-mini"
+  ],
+  "fits": [
+   "apple-watch-ultra-2",
+   "airtag",
+   "airpods-4"
+  ],
+  "xy": [
+   0.84,
+   0.679
+  ]
+ },
+ "iphone-16e": {
+  "similar": [
+   "iphone-16",
+   "iphone-15",
+   "iphone-17-pro",
+   "ipad-mini"
+  ],
+  "fits": [
+   "airtag",
+   "apple-watch-s10",
+   "airpods-4"
+  ],
+  "xy": [
+   0.93,
+   0.515
+  ]
+ },
+ "iphone-17": {
+  "similar": [
+   "iphone-17-pro",
+   "iphone-16",
+   "iphone-16e",
+   "iphone-15"
+  ],
+  "fits": [
+   "apple-watch-ultra-2",
+   "airpods-4",
+   "cargador-magsafe"
+  ],
+  "xy": [
+   0.743,
+   0.587
+  ]
+ },
+ "iphone-17-pro": {
+  "similar": [
+   "iphone-16",
+   "iphone-15",
+   "iphone-16e",
+   "iphone-17"
+  ],
+  "fits": [
+   "apple-watch-ultra-2",
+   "airpods-4",
+   "cargador-magsafe"
+  ],
+  "xy": [
+   0.761,
+   0.662
+  ]
+ },
+ "pixel-9a": {
+  "similar": [
+   "galaxy-s25",
+   "iphone-16",
+   "iphone-17-pro",
+   "iphone-15"
+  ],
+  "fits": [
+   "airpods-4",
+   "airpods-max",
+   "airpods-pro-3"
+  ],
+  "xy": [
+   0.594,
+   0.921
+  ]
+ },
+ "ipad-a16": {
+  "similar": [
+   "ipad-mini",
+   "macbook-air-m4",
+   "iphone-16e",
+   "iphone-16"
+  ],
+  "fits": [
+   "magic-keyboard",
+   "airtag",
+   "airpods-4"
+  ],
+  "xy": [
+   0.757,
+   0.464
+  ]
+ },
+ "ipad-mini": {
+  "similar": [
+   "ipad-a16",
+   "iphone-16e",
+   "iphone-16",
+   "macbook-air-m4"
+  ],
+  "fits": [
+   "magic-keyboard",
+   "airpods-4",
+   "airtag"
+  ],
+  "xy": [
+   0.789,
+   0.53
+  ]
+ },
+ "tab-s9": {
+  "similar": [
+   "galaxy-s25",
+   "galaxy-zflip6",
+   "macbook-air-m4",
+   "ipad-a16"
+  ],
+  "fits": [
+   "airpods-4",
+   "airpods-pro-3",
+   "airpods-max"
+  ],
+  "xy": [
+   0.656,
+   0.74
+  ]
+ },
+ "kindle-paperwhite": {
+  "similar": [
+   "ipad-mini",
+   "mac-mini-m4",
+   "ipad-a16",
+   "macbook-air-m4"
+  ],
+  "fits": [],
+  "xy": [
+   0.671,
+   0.602
+  ]
+ },
+ "macbook-air-m4": {
+  "similar": [
+   "mac-mini-m4",
+   "ipad-mini",
+   "ipad-a16",
+   "iphone-15"
+  ],
+  "fits": [
+   "airpods-4",
+   "cargador-magsafe",
+   "magic-keyboard"
+  ],
+  "xy": [
+   0.879,
+   0.58
+  ]
+ },
+ "mac-mini-m4": {
+  "similar": [
+   "macbook-air-m4",
+   "ipad-mini",
+   "iphone-16e",
+   "iphone-16"
+  ],
+  "fits": [
+   "airpods-4",
+   "magic-keyboard",
+   "cargador-magsafe"
+  ],
+  "xy": [
+   0.812,
+   0.609
+  ]
+ },
+ "surface-pro": {
+  "similar": [
+   "raspberry-pi-5",
+   "pixel-9a",
+   "galaxy-s25",
+   "ipad-a16"
+  ],
+  "fits": [
+   "airpods-4",
+   "airpods-max",
+   "airpods-pro-3"
+  ],
+  "xy": [
+   0.55,
+   0.685
+  ]
+ },
+ "raspberry-pi-5": {
+  "similar": [
+   "mac-mini-m4",
+   "pixel-9a",
+   "surface-pro",
+   "galaxy-s25"
+  ],
+  "fits": [],
+  "xy": [
+   0.506,
+   0.882
+  ]
+ },
+ "magic-keyboard": {
+  "similar": [
+   "magic-mouse",
+   "cargador-magsafe",
+   "airtag",
+   "ipad-a16"
+  ],
+  "fits": [
+   "ipad-a16",
+   "mac-mini-m4",
+   "ipad-mini"
+  ],
+  "xy": [
+   0.552,
+   0.093
+  ]
+ },
+ "magic-mouse": {
+  "similar": [
+   "magic-keyboard",
+   "cargador-magsafe",
+   "iphone-16",
+   "apple-tv-4k"
+  ],
+  "fits": [
+   "ipad-mini",
+   "mac-mini-m4",
+   "ipad-a16"
+  ],
+  "xy": [
+   0.514,
+   0.191
+  ]
+ },
+ "airpods-4": {
+  "similar": [
+   "airpods-max",
+   "airpods-pro-3",
+   "homepod-mini",
+   "cargador-magsafe"
+  ],
+  "fits": [
+   "cargador-magsafe",
+   "iphone-17",
+   "apple-watch-ultra-2"
+  ],
+  "xy": [
+   0.518,
+   0.296
+  ]
+ },
+ "airpods-pro-3": {
+  "similar": [
+   "airpods-max",
+   "airpods-4",
+   "homepod-mini",
+   "cargador-magsafe"
+  ],
+  "fits": [
+   "cargador-magsafe",
+   "iphone-17",
+   "apple-watch-ultra-2"
+  ],
+  "xy": [
+   0.435,
+   0.133
+  ]
+ },
+ "airpods-max": {
+  "similar": [
+   "airpods-pro-3",
+   "airpods-4",
+   "iphone-17",
+   "homepod-mini"
+  ],
+  "fits": [
+   "iphone-17",
+   "cargador-magsafe",
+   "apple-watch-ultra-2"
+  ],
+  "xy": [
+   0.443,
+   0.207
+  ]
+ },
+ "homepod-mini": {
+  "similar": [
+   "airpods-4",
+   "airpods-max",
+   "apple-tv-4k",
+   "airpods-pro-3"
+  ],
+  "fits": [
+   "apple-tv-4k",
+   "philips-hue-e27",
+   "ring-video-doorbell"
+  ],
+  "xy": [
+   0.397,
+   0.429
+  ]
+ },
+ "echo-dot": {
+  "similar": [
+   "fire-tv-stick-4k",
+   "philips-hue-e27",
+   "homepod-mini",
+   "magic-keyboard"
+  ],
+  "fits": [
+   "fire-tv-stick-4k",
+   "philips-hue-e27",
+   "apple-tv-4k"
+  ],
+  "xy": [
+   0.208,
+   0.235
+  ]
+ },
+ "switch-2": {
+  "similar": [
+   "switch-oled",
+   "switch-pro-controller",
+   "iphone-17",
+   "apple-tv-4k"
+  ],
+  "fits": [
+   "switch-pro-controller",
+   "airpods-4",
+   "airpods-max"
+  ],
+  "xy": [
+   0.269,
+   0.752
+  ]
+ },
+ "switch-oled": {
+  "similar": [
+   "switch-2",
+   "switch-pro-controller",
+   "apple-tv-4k",
+   "galaxy-s25"
+  ],
+  "fits": [
+   "switch-pro-controller",
+   "airpods-4",
+   "airpods-max"
+  ],
+  "xy": [
+   0.378,
+   0.56
+  ]
+ },
+ "steam-deck-oled": {
+  "similar": [
+   "switch-oled",
+   "kindle-paperwhite",
+   "raspberry-pi-5",
+   "macbook-air-m4"
+  ],
+  "fits": [
+   "airpods-4",
+   "control-xbox",
+   "airpods-max"
+  ],
+  "xy": [
+   0.361,
+   0.632
+  ]
+ },
+ "rog-ally": {
+  "similar": [
+   "galaxy-s25",
+   "switch-2",
+   "raspberry-pi-5",
+   "surface-pro"
+  ],
+  "fits": [
+   "airpods-4",
+   "dualsense",
+   "control-xbox"
+  ],
+  "xy": [
+   0.397,
+   0.696
+  ]
+ },
+ "ps-portal": {
+  "similar": [
+   "dualsense",
+   "switch-2",
+   "sony-a7-iv",
+   "apple-tv-4k"
+  ],
+  "fits": [
+   "airpods-4",
+   "airpods-pro-3",
+   "airpods-max"
+  ],
+  "xy": [
+   0.196,
+   0.547
+  ]
+ },
+ "dualsense": {
+  "similar": [
+   "control-xbox",
+   "switch-pro-controller",
+   "apple-tv-4k",
+   "sony-a7-iv"
+  ],
+  "fits": [
+   "rog-ally",
+   "steam-deck-oled"
+  ],
+  "xy": [
+   0.093,
+   0.388
+  ]
+ },
+ "control-xbox": {
+  "similar": [
+   "dualsense",
+   "cargador-magsafe",
+   "switch-pro-controller",
+   "philips-hue-e27"
+  ],
+  "fits": [
+   "rog-ally",
+   "steam-deck-oled"
+  ],
+  "xy": [
+   0.265,
+   0.281
+  ]
+ },
+ "switch-pro-controller": {
+  "similar": [
+   "switch-2",
+   "switch-oled",
+   "control-xbox",
+   "dualsense"
+  ],
+  "fits": [
+   "switch-2",
+   "switch-oled"
+  ],
+  "xy": [
+   0.203,
+   0.399
+  ]
+ },
+ "canon-r50": {
+  "similar": [
+   "canon-r10",
+   "sony-zv-e10",
+   "sony-a7-iv",
+   "nikon-z50"
+  ],
+  "fits": [
+   "dji-mini-4-pro",
+   "instax-wide",
+   "ipad-mini"
+  ],
+  "xy": [
+   0.284,
+   0.825
+  ]
+ },
+ "canon-r10": {
+  "similar": [
+   "canon-r50",
+   "sony-a7-iv",
+   "sony-zv-e10",
+   "nikon-z50"
+  ],
+  "fits": [
+   "dji-mini-4-pro",
+   "instax-wide",
+   "ipad-mini"
+  ],
+  "xy": [
+   0.424,
+   0.859
+  ]
+ },
+ "nikon-z50": {
+  "similar": [
+   "sony-zv-e10",
+   "canon-r50",
+   "sony-a7-iv",
+   "dji-mini-4-pro"
+  ],
+  "fits": [
+   "dji-mini-4-pro",
+   "instax-wide",
+   "ipad-mini"
+  ],
+  "xy": [
+   0.365,
+   0.763
+  ]
+ },
+ "sony-zv-e10": {
+  "similar": [
+   "sony-a7-iv",
+   "nikon-z50",
+   "canon-r50",
+   "canon-r10"
+  ],
+  "fits": [
+   "dji-mini-4-pro",
+   "instax-wide",
+   "ipad-mini"
+  ],
+  "xy": [
+   0.302,
+   0.903
+  ]
+ },
+ "sony-a7-iv": {
+  "similar": [
+   "sony-zv-e10",
+   "canon-r50",
+   "canon-r10",
+   "nikon-z50"
+  ],
+  "fits": [
+   "instax-wide",
+   "dji-mini-4-pro",
+   "ipad-mini"
+  ],
+  "xy": [
+   0.352,
+   0.85
+  ]
+ },
+ "instax-wide": {
+  "similar": [
+   "sony-zv-e10",
+   "nikon-z50",
+   "sony-a7-iv",
+   "iphone-17-pro"
+  ],
+  "fits": [
+   "sony-zv-e10",
+   "iphone-17-pro",
+   "nikon-z50"
+  ],
+  "xy": [
+   0.434,
+   0.786
+  ]
+ },
+ "dji-mini-4-pro": {
+  "similar": [
+   "pixel-9a",
+   "iphone-17-pro",
+   "sony-zv-e10",
+   "nikon-z50"
+  ],
+  "fits": [
+   "pixel-9a",
+   "sony-zv-e10",
+   "iphone-17-pro"
+  ],
+  "xy": [
+   0.446,
+   0.93
+  ]
+ },
+ "apple-tv-4k": {
+  "similar": [
+   "iphone-16",
+   "ipad-a16",
+   "iphone-16e",
+   "fire-tv-stick-4k"
+  ],
+  "fits": [
+   "homepod-mini",
+   "ring-video-doorbell",
+   "philips-hue-e27"
+  ],
+  "xy": [
+   0.506,
+   0.487
+  ]
+ },
+ "fire-tv-stick-4k": {
+  "similar": [
+   "apple-tv-4k",
+   "roku-express",
+   "echo-dot",
+   "ring-video-doorbell"
+  ],
+  "fits": [
+   "echo-dot",
+   "ring-video-doorbell",
+   "philips-hue-e27"
+  ],
+  "xy": [
+   0.28,
+   0.475
+  ]
+ },
+ "roku-express": {
+  "similar": [
+   "ring-video-doorbell",
+   "fire-tv-stick-4k",
+   "apple-tv-4k",
+   "instax-wide"
+  ],
+  "fits": [
+   "ring-video-doorbell",
+   "homepod-mini",
+   "philips-hue-e27"
+  ],
+  "xy": [
+   0.162,
+   0.612
+  ]
+ },
+ "philips-hue-e27": {
+  "similar": [
+   "ring-video-doorbell",
+   "nikon-z50",
+   "control-xbox",
+   "echo-dot"
+  ],
+  "fits": [
+   "ring-video-doorbell",
+   "echo-dot",
+   "homepod-mini"
+  ],
+  "xy": [
+   0.207,
+   0.473
+  ]
+ },
+ "ring-video-doorbell": {
+  "similar": [
+   "roku-express",
+   "switch-2",
+   "philips-hue-e27",
+   "fire-tv-stick-4k"
+  ],
+  "fits": [
+   "philips-hue-e27",
+   "homepod-mini",
+   "echo-dot"
+  ],
+  "xy": [
+   0.07,
+   0.563
+  ]
+ },
+ "apple-watch-s10": {
+  "similar": [
+   "apple-watch-ultra-2",
+   "iphone-17-pro",
+   "cargador-magsafe",
+   "airtag"
+  ],
+  "fits": [
+   "iphone-17-pro",
+   "cargador-magsafe",
+   "airpods-4"
+  ],
+  "xy": [
+   0.685,
+   0.366
+  ]
+ },
+ "apple-watch-ultra-2": {
+  "similar": [
+   "apple-watch-s10",
+   "iphone-15",
+   "iphone-17-pro",
+   "iphone-16"
+  ],
+  "fits": [
+   "iphone-15",
+   "airtag",
+   "airpods-4"
+  ],
+  "xy": [
+   0.613,
+   0.376
+  ]
+ },
+ "airtag": {
+  "similar": [
+   "cargador-magsafe",
+   "magic-keyboard",
+   "iphone-16e",
+   "apple-watch-s10"
+  ],
+  "fits": [
+   "iphone-16e",
+   "apple-watch-s10",
+   "airpods-4"
+  ],
+  "xy": [
+   0.676,
+   0.07
+  ]
+ },
+ "cargador-magsafe": {
+  "similar": [
+   "magic-keyboard",
+   "airtag",
+   "airpods-4",
+   "apple-watch-s10"
+  ],
+  "fits": [
+   "airpods-4",
+   "apple-watch-s10",
+   "iphone-15"
+  ],
+  "xy": [
+   0.592,
+   0.155
+  ]
+ }
+}
