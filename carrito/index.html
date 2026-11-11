@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carrito · Pieza</title>
+<meta name="description" content="Tu carrito en Pieza.">
+<meta name="theme-color" content="#24493a">
+<link rel="canonical" href="https://kaylas105-web.github.io/pieza-demo/carrito/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Carrito · Pieza">
+<meta property="og:description" content="Tu carrito en Pieza.">
+
+<meta name="robots" content="noindex">
+<link rel="icon" href="/pieza-demo/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="/pieza-demo/site.css">
+<script>document.documentElement.classList.add("js")</script>
+<script type="module" src="/pieza-demo/app.js"></script>
+</head>
+<body data-page="cart" data-base="/pieza-demo/">
+<a class="skip" href="#main">Saltar al contenido</a>
+<p class="demo-bar mono">DEMO · Tienda de ejemplo: no se vende ni se cobra nada real</p>
+<header class="top">
+  <a href="/pieza-demo/" class="logo" aria-label="Pieza, inicio">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="3" y="3" width="34" height="34" rx="3"/><path d="M13 29V11h8a6 6 0 0 1 0 12h-8"/><circle cx="29" cy="29" r="2.4"/></svg>
+    <span>Pieza</span>
+  </a>
+  <nav class="nav" aria-label="Principal">
+    <a href="/pieza-demo/productos/">Cajones</a>
+    <a href="/pieza-demo/mapa/">Mapa</a>
+    <a href="/pieza-demo/#encajan">Piezas que encajan</a>
+  </nav>
+  <form class="search" action="/pieza-demo/productos/" role="search">
+    <label class="sr-only" for="q">Buscar</label>
+    <input id="q" name="q" type="search" placeholder="Buscar en la mesa" autocomplete="off">
+  </form>
+  <a href="/pieza-demo/carrito/" class="cart-link" aria-current="page">Carrito <span class="cart-count mono" data-cart-count>0</span></a>
+</header>
+<main id="main">
+
+<section class="chapter chapter--paper cart" aria-labelledby="cart-h">
+  <div class="chapter__head"><p class="kicker mono">Remito</p><h1 id="cart-h">Tu carrito</h1></div>
+  <div class="cart__grid" data-cart-page>
+    <div class="slip" data-slip>
+      <p class="mono" data-cart-empty hidden>Tu carrito está vacío. <a href="/pieza-demo/productos/">Abrí un cajón</a>.</p>
+      <ul class="slip__lines" data-cart-lines></ul>
+      <dl class="slip__totals mono" data-cart-totals></dl>
+    </div>
+    <form class="checkout" data-checkout novalidate>
+      <fieldset>
+        <legend>Datos de envío</legend>
+        <div class="field"><label for="f-name">Nombre y apellido</label><input id="f-name" name="name" autocomplete="name" required minlength="3"><p class="err" hidden></p></div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required><p class="err" hidden></p></div>
+        <div class="field"><label for="f-phone">Teléfono</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required pattern="[\d +\-\(\)]{8,}"><p class="err" hidden></p></div>
+        <div class="field field--wide"><label for="f-street">Calle y número</label><input id="f-street" name="street" autocomplete="street-address" required minlength="4"><p class="err" hidden></p></div>
+        <div class="field"><label for="f-city">Ciudad</label><input id="f-city" name="city" autocomplete="address-level2" required><p class="err" hidden></p></div>
+        <div class="field"><label for="f-prov">Provincia</label><select id="f-prov" name="province" required autocomplete="address-level1"><option value="">Elegí</option><option>Mendoza</option><option>Buenos Aires</option><option>CABA</option><option>Catamarca</option><option>Chaco</option><option>Chubut</option><option>Córdoba</option><option>Corrientes</option><option>Entre Ríos</option><option>Formosa</option><option>Jujuy</option><option>La Pampa</option><option>La Rioja</option><option>Misiones</option><option>Neuquén</option><option>Río Negro</option><option>Salta</option><option>San Juan</option><option>San Luis</option><option>Santa Cruz</option><option>Santa Fe</option><option>Santiago del Estero</option><option>Tierra del Fuego</option><option>Tucumán</option></select><p class="err" hidden></p></div>
+        <div class="field"><label for="f-zip">Código postal</label><input id="f-zip" name="zip" autocomplete="postal-code" required pattern="[A-Za-z]?[0-9]{4}[A-Za-z]{0,3}" inputmode="numeric"><p class="err" hidden></p></div>
+      </fieldset>
+      <fieldset>
+        <legend>Pago</legend>
+        <p class="pay mono"><b>Mercado Pago</b> · 6 cuotas sin interés. En esta demo el pago es simulado: no pedimos ni guardamos tarjetas.</p>
+      </fieldset>
+      <button class="btn btn--buy btn--block" type="submit" data-pay>Pagar con Mercado Pago (simulado)</button>
+    </form>
+  </div>
+</section>
+<div class="paying" data-paying hidden role="alertdialog" aria-modal="true" aria-labelledby="paying-h">
+  <div class="paying__box" tabindex="-1">
+    <p id="paying-h" class="mono">Conectando con Mercado Pago (simulado)…</p>
+    <span class="paying__bar"><i></i></span>
+  </div>
+</div>
+</main>
+<footer class="foot">
+  <div class="foot__grid">
+    <div>
+      <p class="logo logo--foot"><span>Pieza</span></p>
+      <p>Tecnología revisada en la mesa. Mendoza, Argentina.</p>
+      <p class="mono foot__demo">Sitio de demostración. Marca, precios y stock son de ejemplo. Los nombres de productos y marcas pertenecen a sus dueños.</p>
+    </div>
+    <div>
+      <p class="foot__h">Cajones</p>
+      <ul><li><a href="/pieza-demo/productos/?cajon=celulares">Celulares</a></li><li><a href="/pieza-demo/productos/?cajon=tablets">Tablets y lectores</a></li><li><a href="/pieza-demo/productos/?cajon=computacion">Computación</a></li><li><a href="/pieza-demo/productos/?cajon=audio">Audio</a></li><li><a href="/pieza-demo/productos/?cajon=gaming">Gaming</a></li><li><a href="/pieza-demo/productos/?cajon=foto">Foto y video</a></li><li><a href="/pieza-demo/productos/?cajon=hogar">Hogar y TV</a></li><li><a href="/pieza-demo/productos/?cajon=wearables">Relojes y accesorios</a></li></ul>
+    </div>
+    <div>
+      <p class="foot__h">Tienda</p>
+      <ul>
+        <li><a href="/pieza-demo/mapa/">Mapa del catálogo</a></li>
+        <li><a href="/pieza-demo/carrito/">Carrito</a></li>
+        <li><a href="/pieza-demo/creditos/">Créditos de fotos</a></li>
+      </ul>
+      <p class="mono foot__pay">Pagos con Mercado Pago (simulado en esta demo) · 6 cuotas sin interés · Envío gratis desde $ 300.000</p>
+    </div>
+  </div>
+</footer>
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+</body>
+</html>
