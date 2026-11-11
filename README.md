@@ -51,8 +51,9 @@ After changing products: run `prepare_images.py` (new photos) and `embed.mjs` (n
 
 ## Deploy
 
-Push to `main`. The workflow in `.github/workflows/pages.yml` builds and publishes to GitHub Pages.
-In the repo settings, Pages > Source must be set to "GitHub Actions" (once).
+Push to `main`. The workflow in `.github/workflows/pages.yml` builds the site and publishes
+`dist/` to the `gh-pages` branch, which GitHub Pages serves (Pages source: "Deploy from a branch",
+branch `gh-pages`).
 
 ## Photos
 
